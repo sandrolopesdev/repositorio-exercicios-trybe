@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+header 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+}
+
+.menu-navigation {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+i.fa-solid {
+  font-size: 3em;
+}
+
+i.fa-brands {
+  font-size: 2em;
+  margin-left: 3rem;
+  color: rgb(0, 0, 0);
+}
